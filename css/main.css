@@ -1,0 +1,38 @@
+/*
+REQUIREMENTS:
+1. ONE MEDIA QUERY
+2. #welcome-section: height 100vh; x
+3. navbar should be sticky x
+*/
+
+/*
+[0] NAVBAR
+[1] WELCOME
+[2] PROJECTS
+[3] SOCIAL
+[4] FOOTER
+[5] MEDIA QUERIES
+*/
+
+/*[0] NAVBAR */
+#navbar {
+	position: sticky;
+	height: 50px;
+	background-color: #000;
+}
+.fa-cat {
+	color: #d49b9b;
+}
+/*[1] WELCOME*/
+#welcome-section {
+	text-align: center;
+	padding: 10%;
+	background-color: #8e565f; 
+	height: 100vh;
+}
+
+/*[2] PROJECTS*/
+/*[3] SOCIAL*/
+/*[4] FOOTER*/
+/*[5] MEDIA QUERIES*/
+
