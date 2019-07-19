@@ -27,12 +27,41 @@ REQUIREMENTS:
 #welcome-section {
 	text-align: center;
 	padding: 10%;
-	background-color: #8e565f; 
+	/*background-color: #8e565f; */
+	background-image: url("");
 	height: 100vh;
 }
 
 /*[2] PROJECTS*/
+#projects {
+	text-align: center;
+	padding: 20% 10%;
+	background-color: #555e58;
+	color: #d49b9b;
+}
 /*[3] SOCIAL*/
+#social {
+	text-align: center;
+	padding: 20% 10%;
+	background-color: #d49b9b;
+	color: #555e58;
+}
+#social a,
+#social a:hover,
+#social a:after {
+	color: #555e58;
+}
+#social ul {
+	width: 100%;
+	padding: 10%;
+}
+#social li {
+	display: inline-block;
+	padding-right: 1%;
+}
+#social img {
+	max-width: 100px;
+}
 /*[4] FOOTER*/
 /*[5] MEDIA QUERIES*/
 
