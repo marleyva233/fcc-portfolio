@@ -28,7 +28,9 @@ REQUIREMENTS:
 	text-align: center;
 	padding: 10%;
 	/*background-color: #8e565f; */
-	background-image: url("");
+	background-image: url("https://marleyva233.github.io/fcc-portfolio/img/code1.jpg");
+	background-size: cover;
+	background-position: center; 
 	height: 100vh;
 }
 
