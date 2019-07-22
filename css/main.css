@@ -25,7 +25,7 @@ REQUIREMENTS:
 }
 /*[1] WELCOME*/
 #welcome-section {
-	text-align: center;
+	text-align: right;
 	padding: 10%;
 	/*background-color: #8e565f; */
 	background-image: url("https://marleyva233.github.io/fcc-portfolio/img/code3.jpg");
@@ -33,19 +33,40 @@ REQUIREMENTS:
 	background-position: center; 
 	height: 100vh;
 }
-
+#welcome h1,
+#welcome h4 {
+	animation-duration: 5s;
+	animation-delay: 2s;
+}
+h4 {
+	color: #d49b9b;
+}
 /*[2] PROJECTS*/
 #projects {
 	text-align: center;
-	padding: 20% 10%;
-	background-color: #555e58;
-	color: #d49b9b;
+	padding: 20% 5%;
+	background-color: #aaa;
+	color: #000;
+}
+#tiles {
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.project-tile {
+	background-color: #fff;
+	padding: 1%;
+}
+.project-tile img {
+	width: 100%;
 }
 /*[3] SOCIAL*/
 #social {
 	text-align: center;
 	padding: 20% 10%;
 	background-color: #d49b9b;
+	color: #555e58;
+}
+#social h4 {
 	color: #555e58;
 }
 #social a,
@@ -62,7 +83,7 @@ REQUIREMENTS:
 	padding-right: 1%;
 }
 #social img {
-	max-width: 100px;
+	width: 100px;
 }
 /*[4] FOOTER*/
 /*[5] MEDIA QUERIES*/
