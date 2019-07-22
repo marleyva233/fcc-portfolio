@@ -14,6 +14,9 @@ REQUIREMENTS:
 [5] MEDIA QUERIES
 */
 
+* {
+	font-family: Open Sans;
+}
 /*[0] NAVBAR */
 #navbar {
 	position: sticky;
@@ -25,10 +28,10 @@ REQUIREMENTS:
 }
 /*[1] WELCOME*/
 #welcome-section {
-	text-align: center;
+	text-align: left;
 	padding: 10%;
 	/*background-color: #8e565f; */
-	background-image: url("https://marleyva233.github.io/fcc-portfolio/img/cats2.jpg");
+	background-image: url("https://raw.githubusercontent.com/marleyva233/fcc-portfolio/master/img/cats1.jpg");
 	background-size: cover;
 	background-position: center; 
 	height: 100vh;
@@ -84,6 +87,16 @@ h4 {
 #social img {
 	width: 100px;
 }
-/*[4] FOOTER*/
+/*[4] FOOTER */
+#footer {
+	background-color: #aaa;
+}
+#footer ul {
+	margin: 0 auto;
+	text-align: center;
+}
+#footer ul li {
+	display: inline-block;
+	font-size: 12px;
+} 
 /*[5] MEDIA QUERIES*/
-
