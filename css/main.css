@@ -25,12 +25,12 @@ REQUIREMENTS:
 }
 /*[1] WELCOME*/
 #welcome-section {
-	text-align: left;
+	text-align: center;
 	padding: 10%;
 	/*background-color: #8e565f; */
-	background-image: url("https://marleyva233.github.io/fcc-portfolio/img/cats1.jpg");
+	background-image: url("https://marleyva233.github.io/fcc-portfolio/img/cats2.jpg");
 	background-size: cover;
-	background-position: bottom left; 
+	background-position: center; 
 	height: 100vh;
 }
 #welcome h1,
