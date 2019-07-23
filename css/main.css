@@ -60,6 +60,7 @@ h4 {
 }
 .project-tile img {
 	width: 100%;
+	max-width: 250px;
 }
 /*[3] SOCIAL*/
 #social {
@@ -100,3 +101,14 @@ h4 {
 	font-size: 12px;
 } 
 /*[5] MEDIA QUERIES*/
+@media only screen and (max-width: 550px ) {
+	#tiles {
+	display: grid;
+	grid-template-columns: auto auto;
+	}	
+}
+@media only screen and (max-width: 800px) {
+	.project-tile {
+		padding: auto;
+	}
+}
