@@ -21,14 +21,13 @@ REQUIREMENTS:
 #navbar {
 	position: sticky;
 	height: 50px;
-	background-color: #000;
 }
 .fa-cat {
 	color: #d49b9b;
 }
 /*[1] WELCOME*/
 #welcome-section {
-	text-align: left;
+	text-align: center;
 	padding: 10%;
 	/*background-color: #8e565f; */
 	background-image: url("https://raw.githubusercontent.com/marleyva233/fcc-portfolio/master/img/cats1.jpg");
@@ -41,8 +40,13 @@ REQUIREMENTS:
 	animation-duration: 5s;
 	animation-delay: 2s;
 }
+h1 {
+	color: #000;
+	font-weight: bold;
+}
 h4 {
 	color: #d49b9b;
+	font-weight: bold;
 }
 /*[2] PROJECTS*/
 #projects {
@@ -67,7 +71,7 @@ h4 {
 	text-align: center;
 	padding: 20% 10%;
 	background-color: #d49b9b;
-	color: #555e58;
+	color: #000;
 }
 #social h4 {
 	color: #555e58;
@@ -78,6 +82,7 @@ h4 {
 	color: #555e58;
 }
 #social ul {
+	/*background-color: #000;*/
 	width: 100%;
 	padding: 10%;
 }
@@ -86,7 +91,8 @@ h4 {
 	padding-right: 1%;
 }
 #social img {
-	width: 100px;
+	/*width: 50px;*/
+	height: 50px;
 }
 /*[4] FOOTER */
 #footer {
@@ -101,14 +107,19 @@ h4 {
 	font-size: 12px;
 } 
 /*[5] MEDIA QUERIES*/
+@media only screen and (max-width: 800px) {
+	.project-tile {
+		padding: auto;
+	}
+}
+@media only screen and (max-width: 745px) {
+	#welcome-section {
+		background-position: bottom;
+	}
+}
 @media only screen and (max-width: 550px ) {
 	#tiles {
 	display: grid;
 	grid-template-columns: auto auto;
 	}	
-}
-@media only screen and (max-width: 800px) {
-	.project-tile {
-		padding: auto;
-	}
 }
