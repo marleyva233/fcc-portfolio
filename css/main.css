@@ -19,11 +19,27 @@ REQUIREMENTS:
 }
 /*[0] NAVBAR */
 #navbar {
+	padding-top: 5%;
+	padding-bottom: 1%;
 	position: sticky;
-	height: 50px;
+	background-color: #aaa;
+	margin: 0;
+	top: 0;
+	z-index: 999;
 }
 .fa-cat {
-	color: #d49b9b;
+	color: #000;
+	font-size: 30px;
+}
+#navbar ul {
+	margin: 0;
+}
+#navbar li {
+	display: inline-block;
+	padding: 0 10px;
+}
+#navbar a {
+	color: #fff;
 }
 /*[1] WELCOME*/
 #welcome-section {
